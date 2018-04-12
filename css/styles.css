@@ -1,0 +1,106 @@
+table {
+  border-collapse: collapse;
+  width: 325px;
+  height: 100%;
+  background-color: #383838;
+}
+table td, table th {
+  border: 1px solid black;
+}
+td {
+  padding: 12px;
+}
+table tr:first-child th {
+  border-top: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+  width: 90px;
+}
+
+table tr td:nth-child(2),
+table tr th:nth-child(2) {
+  border-right: 0;
+  color: darkgrey;
+}
+
+table tr td:nth-child(3),
+table tr th:nth-child(3) {
+  border-right: 0;
+  color: darkgrey;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+  color: darkgrey;
+}
+
+tr:nth-child(even) {
+  background-color: #232323;
+}
+
+.header {
+  padding: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.footer {
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  float: right;
+}
+
+.widget {
+  margin: 50px;
+  width: 325px;
+  height: 100%;
+  padding-bottom: 60px;
+  border-radius: 15px;
+  background: linear-gradient(#383838, #232323);
+}
+
+.border-size {
+  border: 1px solid black;
+}
+
+.font-sans {
+  color: white;
+  font-family: helvetica;
+}
+
+.phone {
+  display: none;
+}
+
+.email {
+  display: block;
+}
+
+.address {
+  display: none;
+}
+
+.dot {
+  margin-right: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green {
+  background-color: #35ff23;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
